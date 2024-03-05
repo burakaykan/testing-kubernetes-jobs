@@ -13,7 +13,7 @@ spec:
         command:
          - "bin/bash"
          - "-c"
-         - "apt-install osmium-tool"
+         - "apt install osmium-tool"
          - "osmium -h"
          - "for i in 9 8 7 6 5 4 3 2 1 ; do echo $i ; done"
       restartPolicy: Never
